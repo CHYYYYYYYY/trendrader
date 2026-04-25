@@ -432,7 +432,7 @@ ai:
                                     #    例如: openai/deepseek-ai/DeepSeek-V3
                                     #    (原理：前缀 openai/ 强制 LiteLLM 使用 OpenAI 协议格式进行通信)
 
-
+  enabled: true
   timeout: 120                      # 请求超时（秒）
 
   temperature: 1.0                  # 采样温度 (0.0-2.0)
